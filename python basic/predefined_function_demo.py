@@ -1,0 +1,22 @@
+# tuple_1 = (1, 2, 3)
+# tuple_2 = (1, 2, 3)
+# print(tuple_1 == tuple_2)
+# tuple_1 = (1, 2, 3)
+# tuple_2 = (2, 2, 3)
+# print(tuple_1 < tuple_2)
+# print(tuple_2 > tuple_1)
+# dic1 = {"a": 1, "b": 2, "c": 3}
+# dic2 = {"a1": 1, "b1": 2, "c1": 3}
+# # print(dic1 > dic2)
+# print(tuple_1[1::])
+# # print(dic1[1::])
+# print("a" in dic1)
+# print(1 in dic1)
+# print(1 * 3)
+mlist = [1, 2, 3, 4]
+mlist.append([5, 4])
+print(len(mlist))
+print(mlist[4])
+mlist.extend([6, 7])
+print(len(mlist))
+print(mlist[5])
