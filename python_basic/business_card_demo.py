@@ -1,4 +1,5 @@
-import my_functions.hello_functions
+import python_basic.my_functions.hello_functions as hello_functions
+
 options = [0, 1, 2, 3]
 business_cards = []
 print("*" * 50)
@@ -17,7 +18,7 @@ while True:
     else:
         if option == 1:
             print("==============================New Business Card==============================")
-            business_cards.append(my_functions.hello_functions.new_business_card())
+            business_cards.append(hello_functions.new_business_card())
         elif option == 2:
             print("==============================Show all==============================")
             for name in ("name", "tel", "qq", "email"):

@@ -1,10 +1,14 @@
-# num = 10
+num = 10
+
+
 #
 #
-# def fun():
-#     global num
-#     num = 11
-#     print(num)
+def fun():
+    global num
+    num = 11
+    print(num)
+
+
 #     return num, 1, 2
 #
 #
@@ -19,9 +23,11 @@ def func(num_list):
     print(num_list)
 
 
-gl_num_list = [1, 2, 3]
-func(gl_num_list)
-print(gl_num_list)
+fun()
+print(num)
+# gl_num_list = [1, 2, 3]
+# func(gl_num_list)
+# print(gl_num_list)
 # gl_num_dict = {1: 1, 2: 2, 3: 3}
 # gl_num_dict.
 # func(gl_num_dict)

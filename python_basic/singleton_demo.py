@@ -19,8 +19,8 @@ class Teacher:
 
 t1 = Teacher()
 t2 = Teacher()
-a = "1"
-b = "2"
+a = 1
+b = 2
 print(t1 == t2)
 print(t1 is t2)
 print(a - b)
